@@ -1,0 +1,56 @@
+.auth-page{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url("../../../images/black.png");
+}
+.auth-form{
+    padding: 20px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 12px;
+}
+
+.auth-form_subtitle{
+    color: rgb(180, 184, 193);
+}
+.auth-form_form{
+    max-width: 360px;
+}
+.auth-form_input{
+    width: 100%;
+}
+.icon-wrapper{
+   max-width: 360px;
+   width: 100%; 
+   border-color: black;
+   align-items: center;
+   padding: 0;
+}
+.icon-wrapper p{
+    color: black;
+}
+.img-wrapper{
+    width: 50px;
+    display: block;
+    align-items: center;
+}
+.img-wrapper img{
+    width: 30px;
+    height: 30px;
+}
+.lines{
+    padding: 0 4px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.line{
+    background-color: #000;
+    align-items: center;
+    width: 42%;
+    height: 1px;
+}
+.lines p{
+    align-items: center;
+}

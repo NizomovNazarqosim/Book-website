@@ -1,0 +1,34 @@
+.not-found{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url("../../images/black.png");
+}
+.not-found-div{
+    display:flex;   
+    align-items:center;
+    justify-content: center;
+}   
+.not-found-div img{
+    width: 550px;
+    height: 400px;
+}
+.not-found-btns{
+    margin-top: 40px !important;
+    display:flex;
+    width:430px;
+    align-items:center;
+    justify-content:space-between;
+    margin:0 auto;
+}
+.not-found-btns button{
+    width: 48%;
+}
+.err-btn{
+    width:40%;
+    background-color: #6200EE !important;
+}
+.err-btn-2{
+    width:40%;
+    border: 1px solid #6200EE !important;
+    color: #6200EE !important;
+}
